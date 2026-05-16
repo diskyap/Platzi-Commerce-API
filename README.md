@@ -84,7 +84,7 @@ PLATZI-COMMERCE-API/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/your-username/platzi-commerce-api.git
+git clone https://github.com/diskyap/Platzi-Commerce-API.git
 cd platzi-commerce-api
 ```
 
@@ -228,7 +228,15 @@ Allure report includes:
 * Execution history
 * Failed test details
 
----
+## Allure reporting dashboard
+<img src="images/allure dashboard.png" width="700"/>
+
+
+## With masking response access_token (Security)
+<img src="images/allure suite - mask.png" width="700"/>
+
+## Allure - Suite
+<img src="images/allure suite.png" width="700"/>
 
 ## 🛠 Future Improvements
 
@@ -240,8 +248,6 @@ Allure report includes:
 * Performance Testing
 * Slack Notification
 * Auto Deploy Allure Report
-
----
 
 ## 👨‍💻 Author
 
