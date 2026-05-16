@@ -1,0 +1,8 @@
+[
+    {
+        "email": "john@mail.com",
+        "password": "changeme",
+        "expected_status": 201,
+        "test_id": "valid_account"
+    }
+]

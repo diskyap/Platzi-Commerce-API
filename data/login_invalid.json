@@ -1,0 +1,38 @@
+[
+    {
+        "email": "wrong@mail.com",
+        "password": "changeme",
+        "expected_status": 401,
+        "test_id": "invalid_email"
+    },
+    {
+        "email": "john@mail.com",
+        "password": "wrongpassword",
+        "expected_status": 401,
+        "test_id": "invalid_password"
+    },
+    {
+        "email": "wrong@mail.com",
+        "password": "wrongpassword",
+        "expected_status": 401,
+        "test_id": "invalid_email_and_password"
+    },
+    {
+        "email": "john.mail.com",
+        "password": "wrongpassword",
+        "expected_status": 401,
+        "test_id": "invalid_email_format"
+    },
+    {
+        "email": "",
+        "password": "changeme",
+        "expected_status": 401,
+        "test_id": "empty_email"
+    },
+    {
+        "email": "john@mail.com",
+        "password": "",
+        "expected_status": 401,
+        "test_id": "empty_password"
+    }
+]
